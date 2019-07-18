@@ -1,0 +1,28 @@
+package org.tennis.game.model;
+
+public class Player {
+
+	private String name;
+
+	public Player() {
+		super();
+	}
+
+	public Player(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void display() {
+		System.out.println();
+	}
+
+}
